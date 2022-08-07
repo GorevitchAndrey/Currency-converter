@@ -1,0 +1,31 @@
+.currencies-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: absolute;
+  z-index: 999;
+  top: 4rem;
+  left: -13%;
+  width: 125%;
+  height: auto;
+  background-color: rgb(108, 173, 233);
+  color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+
+  &__item {
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .currencies-list {
+    grid-template-columns: repeat(4, 1fr);
+    right: 0 !important;
+  }
+}
