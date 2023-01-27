@@ -1,5 +1,5 @@
 # currency-converter
-# Мини-приложение для просмотра и конвертации валют
+# Widget for viewing and converting currencies
 
 ## Project setup
 ```
